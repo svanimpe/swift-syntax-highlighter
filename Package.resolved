@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kkk669/swift-syntax.git",
+      "state" : {
+        "branch" : "wasm32-wasi-test",
+        "revision" : "9962b1c20b447605237b1d9a182b54171428ad1b"
+      }
+    }
+  ],
+  "version" : 2
+}

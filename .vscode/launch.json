@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-syntax-highlighter}",
+            "name": "Debug swift-syntax-highlighter",
+            "program": "${workspaceFolder:swift-syntax-highlighter}/.build/debug/swift-syntax-highlighter",
+            "preLaunchTask": "swift: Build Debug swift-syntax-highlighter"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-syntax-highlighter}",
+            "name": "Release swift-syntax-highlighter",
+            "program": "${workspaceFolder:swift-syntax-highlighter}/.build/release/swift-syntax-highlighter",
+            "preLaunchTask": "swift: Build Release swift-syntax-highlighter"
+        }
+    ]
+}
